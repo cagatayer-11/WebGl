@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Emoji</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/initialize.js" defer></script>
+    <script src="js/shaders.js" defer></script>
+    <script src="js/app.js" defer></script>
+</head>
+<body>
+<canvas id="glCanvas" width="500" height="500" style="border:1px solid #000000;"></canvas>
+<div>
+    <div><button id="StartSpin">Start Spin</button><button id="StopSpin">Stop Spin</button>
+        <label for="SpinInput"></label><input id="SpinInput" type="number" min="-10" max="10" step="1" value="1"></div>
+    <div><button id="StartScale">Start Scale</button><button id="StopScale">Stop Scale</button></div>
+    <div><button id="StartSpiral">Start Spiral</button><button id="StopSpiral">Stop Spiral</button>
+        <label for="SpiralInput"></label><input id="SpiralInput" type="number" min="-10" max="10" step="1" value="1"></div>
+</div>
+</body>
+</html>
